@@ -28,3 +28,12 @@ cd demo
 ```code
 java -cp ui-0.0.1-SNAPSHOT.jar -Dloader.path=./lib org.springframework.boot.loader.PropertiesLauncher
 ```
+
+
+## config scan
+
+* command
+
+```code
+java -cp ui-0.0.1-SNAPSHOT.jar -Dscan.thirdpackages=com.mydalong  -Dloader.path=./lib org.springframework.boot.loader.PropertiesLauncher
+```
