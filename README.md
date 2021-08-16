@@ -21,11 +21,10 @@ cp secondjar/target/secondjar-0.0.1-SNAPSHOT.jar demo/lib
 cp thirdjar/target/thirdjar-0.0.1-SNAPSHOT.jar demo/lib
 cp ui/target/ui-0.0.1-SNAPSHOT.jar demo/
 cd demo
-java -cp ui-0.0.1-SNAPSHOT.jar -Dloader.path=./lib org.springframework.boot.loader.PropertiesLauncher
 ```
 
 * running 
 
 ```code
-
+java -cp ui-0.0.1-SNAPSHOT.jar -Dloader.path=./lib org.springframework.boot.loader.PropertiesLauncher
 ```
